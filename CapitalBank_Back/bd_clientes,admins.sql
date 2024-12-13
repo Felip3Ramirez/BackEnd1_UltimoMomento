@@ -23,6 +23,10 @@ CREATE TABLE seguros (
     fecha_fin varchar(50) 
 );
 
+INSERT INTO administrador (nombre,contrasena,email,telefono) VALUES
+('Carlos','1234','admin@correo.com',3132435678),
+('Marta','1234','marta@correo.com',3124554433);
+
 INSERT INTO seguros (tipo, compania, costo, fecha_inicio, fecha_fin) VALUES
 ('Salud', 'Companía A', 150.00, '2023-01-01', '2024-01-01'),
 ('Auto', 'Companía B', 200.00, '2023-02-01', '2024-02-01'),
